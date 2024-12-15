@@ -1,23 +1,19 @@
 
-// app/home/page.js
 import Link from 'next/link';
-import Header from '@src/app/components/Header';
-import Footer from '@src/app/components/Footer';
-import Title from '@src/app/components/Title';
-
-
-export default function Home() {
-
-
-    return (
-        <div>
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Title from '../components/Title';
+export default function Lab10() {
+  return (
+    
+    <div>
             <Header />
-            <main style={{ padding: '20px' }}>
-                <Title>Witaj w Mojej Aplikacji!</Title>
-                <p>To jest strona główna.</p>
-                <Link href="/lab10">Lab 10</Link>
-            </main>
-            <Footer />
-        </div>
-    );
+            
+            <Title>Lab10</Title>
+      To jest strona głowna która posiada layout
+      <Footer />
+    </div>
+    
+    
+  );
 }
